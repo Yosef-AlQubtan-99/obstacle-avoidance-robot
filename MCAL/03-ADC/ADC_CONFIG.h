@@ -1,0 +1,22 @@
+/*
+ * ADC_CONFIG.h
+ *
+ *  Created on: 20 Oct 2023
+ *      Author: Me
+ */
+
+#ifndef MCAL_03_ADC_ADC_CONFIG_H_
+#define MCAL_03_ADC_ADC_CONFIG_H_
+#include "../../MCAL/03-ADC/ADC_PRIVATE.h"
+
+//prescaler
+#define ADC_PRESACLER ADC_DIV_BY_8
+//channel
+#define ADC_CHANNEL ADC_CHANNEL_A0
+//voltage ref
+#define ADC_U8REF_VOLT AVCC_REF
+/*RESULTION */ //LEFT ADJUSTED ADCH
+#define ADC_RESOLUTION EIGHT_BITS
+/*ADC INTERRUPT */ //INTERNAL INTERRUPT
+#define ADC_U8INTERRUPT DISABLED
+#endif /* MCAL_03_ADC_ADC_CONFIG_H_ */

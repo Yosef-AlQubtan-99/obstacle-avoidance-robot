@@ -1,0 +1,13 @@
+/*
+ * INTERRUPT_CONFIG.h
+ *
+ *  Created on: 18 Oct 2023
+ *      Author: Me
+ */
+
+#ifndef MCAL_02_INTERRUPT_INTERRUPT_CONFIG_H_
+#define MCAL_02_INTERRUPT_INTERRUPT_CONFIG_H_
+
+
+
+#endif /* MCAL_02_INTERRUPT_INTERRUPT_CONFIG_H_ */
